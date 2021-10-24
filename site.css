@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotels-header > h2 {
+    padding: 16px;
+    text-align: center;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.hotels-list {
+
+}
+.hotel-box {
+    padding: 16px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: space-between
+}
+
+.responsive {
+    max-width: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.title {
+    width: 180px;
+}
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: lighter;
+    display: block;
+    color: #666666;
+    width: 300px;
+    text-align: justify;
+}
+
+.telefono {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.stars {
+    color: orange
+}
+.opinions {
+    font-size: 16px;
+    color: #666666;
+    width: 120px;
+    padding: 12px 0px;
+}
+
+/*estrellitas*/
+
+.ec-stars-wrapper {
+	font-size: 0;
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+    font-size: 16px;
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
